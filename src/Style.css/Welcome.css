@@ -1,0 +1,48 @@
+.welcome {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: #eeedee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.almostIn {
+  margin-top: 40px;
+  padding-top: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.wel {
+  padding-top: -0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.signUpWel {
+  background: #7c20bf;
+  border-radius: 5px;
+  border: #7c20bf;
+  margin-top: 40px;
+  color: #ffffff;
+  padding: 5px;
+  width: 65%;
+  margin-bottom: 40px;
+}
+
+.activationMessage {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.activationMessage p {
+  width: 90%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}

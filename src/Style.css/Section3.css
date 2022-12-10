@@ -1,0 +1,74 @@
+.section3 {
+  width: 100%;
+  margin: 0 auto;
+  background: #ede9ef;
+}
+
+.section3 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  font-size: 32px;
+  color: #26093a;
+}
+
+.section3 button {
+  /* width: 8%; */
+  /* background: #ede9ef; */
+  border: 1px solid #7c20be;
+  border-radius: 5px;
+  padding: 5px 3%;
+  margin-top: 35px;
+}
+
+.easyMode {
+  /* width: 349.58px; */
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+.div-info.active {
+  display: none;
+}
+
+.section3 h2 {
+  padding-top: 70px;
+}
+
+.freedom {
+  border: 1px solid #ffffff;
+  /* width: 349.58px; */
+  border-radius: 5px;
+}
+
+.investment {
+  border: 1px solid #ffffff;
+  /* width: 349.58px; */
+  border-radius: 5px;
+}
+
+.div-info {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 90%;
+  max-width: 400px;
+}
+
+.div-info > div {
+  background-color: white;
+}
+
+@media (min-width: 992px) {
+  .div-info {
+    flex-direction: row;
+    max-width: 1900px;
+  }
+
+  .div-info > div {
+    width: 33%;
+  }
+}

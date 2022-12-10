@@ -1,0 +1,30 @@
+.section2 {
+  width: 100%;
+  background: #ede9ef;
+  display: flex;
+  flex-direction: row;
+}
+
+.exchangerates-box {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ede9ef;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #c5c0c0;
+  
+}
+
+.top-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 989px){
+    .section2{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+

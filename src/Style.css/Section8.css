@@ -1,0 +1,32 @@
+.section8 {
+  width: 100%;
+}
+
+.sec8-div {
+  /* width: 90%; */
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.sec8-div img {
+  width: 25px;
+  margin: 0 auto;
+}
+
+.sec8-div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+}
+
+@media (min-width: 992px) {
+  .sec8-div {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

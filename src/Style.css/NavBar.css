@@ -1,0 +1,58 @@
+.navbar1 {
+  width: 100%;
+  background-color: #7c20be;
+}
+
+.me-auto {
+  gap: 25px;
+  
+}
+
+.getstarted {
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #7c20be;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.login {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+.buysell {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.learn {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+
+  .me-auto{
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+
+  .me-auto{
+    margin-left: 55%;
+  }
+  
+}

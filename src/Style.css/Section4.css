@@ -1,0 +1,156 @@
+.section4 {
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.stepsLorem h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #26093a;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.stepsLorem p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #292929;
+  width: 48%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.sec4-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.freeAccout-Section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.free-sec2 {
+  display: flex;
+  /* width: 40%; */
+  margin: 10%;
+}
+
+.free-text h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #292929;
+  margin-bottom: 5%;
+}
+
+.free-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+}
+
+.free-text {
+  text-align: left;
+  padding-left: 8%;
+}
+
+.deposit-div1 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.deposit-div2 {
+  display: flex;
+  margin: 10%;
+}
+
+.deposit-div2 h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #292929;
+  margin-bottom: 5%;
+}
+
+.deposit-div2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292929;
+}
+
+.deposit-div-text{
+  text-align: left;
+  padding-left: 8%;
+}
+
+.buySell-div{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.buySell-div2{
+  display: flex;
+  margin-top: 10%;
+}
+
+.buySell-div2 h1{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #292929;
+}
+
+.buySell-div2 p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #292929;
+width: 75%;
+}
+
+.buySell-div-text{
+  text-align: left;
+  padding-left: 4%;
+}
+
+@media (min-width: 992px) {
+  .freeAccout-Section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .deposit-div1 {
+    flex-direction: row;
+  }
+
+  .buySell-div{
+    flex-direction: row;
+  }
+}
